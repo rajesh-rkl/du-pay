@@ -1,0 +1,110 @@
+:root {
+  --blue: rgb(111, 64, 230);
+  --lightblue: rgb(3, 193, 251);
+  --pink: rgb(242, 23, 191);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-bar {
+  display: flex;
+  position: fixed;
+}
+.header-bar:hover{
+  background-color:[];
+}
+.main-head {
+  height: 96px;
+  width: 50%;
+}
+.main-head-img {
+  margin: 10px 0 0 100px;
+}
+.main-head1 {
+  width: 85rem;
+  padding: 1.5rem 0 0 3rem;
+  display: flex;
+}
+.main-head-right {
+  margin: 1rem 0 0 3rem;
+  font-weight: 700px;
+  text-decoration: none;
+  font-size: large;
+  color: rgb(255, 255, 255);
+}
+.main-head-button {
+  background-color: rgb(84, 84, 246);
+  border-radius: 12px;
+  border: 0px;
+  color: aliceblue;
+  margin: 0 0 0 3rem;
+  width: 190px;
+  height: 55px;
+}
+
+.main-head-button:hover {
+  background-color: rgb(10, 10, 247);
+}
+.main-contant {
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(3, 193, 251),
+    rgb(111, 64, 230),
+    rgb(242, 23, 191)
+  );
+  height: 1050px;
+}
+.main-content {
+  padding: 5rem 0 0 0;
+}
+.main-heading-topic {
+  margin: 14rem 0 0 2rem;
+  font-size: 60px;
+  font-family: "Rum Raisin", sans-serif;
+  color: aliceblue;
+  
+}
+.main-heading-paragraph{
+  font-size: 28px;  
+  color: rgb(255, 255, 255);
+
+}
+.main-heading-topic1{
+  font-size: 25px;
+  font-family: "Rum Raisin", sans-serif;
+  color: aliceblue;
+}
+.main-heading-paragraph1{
+  font-size: 15px;  
+  color: rgb(255, 255, 255);
+  font-family: none;
+
+}
+.main-heading-img{
+  width: 6rem;
+}
+.mobile-img{
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(3, 193, 251),
+    rgb(111, 64, 230),
+    rgb(242, 23, 191)
+  );
+  width: 38rem;
+  height:38rem;
+  margin: 8rem 0 0 3rem;
+}
+.mobile-img1{
+    width: 42rem;
+    height: 55rem;
+  padding: 0 0 0 2rem ;
+  position: relative;
+  bottom: 9rem;
+}
+.main-heading-topic2{
+  font-family: "Rum Raisin", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size:4rem;
+}
